@@ -1,0 +1,201 @@
+No.,Threat,Category,Proto,Src_ip,Src_port,Dst_ip,Dst_port,Result
+1,[1:527:8] BAD-TRAFFIC same SRC/DST,Potentially Bad Traffic,UDP,0.0.0.0,68,255.255.255.255,67,no
+2,[1:527:8] BAD-TRAFFIC same SRC/DST,Potentially Bad Traffic,UDP,0.0.0.0,68,255.255.255.255,67,yes
+3,[1:2012811:2] ET DNS DNS Query to a .tk domain - Likely Hostile,Potentially Bad Traffic,UDP,192.168.88.10,1029,4.2.2.3,53,yes
+4,[1:2014665:2] ET CURRENT_EVENTS DRIVEBY Generic - Redirection to Kit - BrowserDetect with var stopit,A Network Trojan was Detected,TCP,50.28.53.156,80,192.168.88.10,1031,no
+5,[1:2012810:8] ET POLICY HTTP Request to a *.tk domain,Potentially Bad Traffic,TCP,192.168.88.10,1034,188.72.248.160,80,no
+6,[1:2014895:5] ET CURRENT_EVENTS RedKit - Landing Page Received - applet and code,A Network Trojan was Detected,TCP,188.72.248.160,80,192.168.88.10,1034,yes
+7,[1:2014894:7] ET CURRENT_EVENTS RedKit - Landing Page Received - applet and 5digit jar,A Network Trojan was Detected,TCP,188.72.248.160,80,192.168.88.10,1034,yes
+8,[1:1200:10] ATTACK-RESPONSES Invalid URL,Attempted Information Leak,TCP,69.63.148.95,80,192.168.88.10,1035,no
+9,[1:1917:6] SCAN UPnP service discover attempt,Detection of a Network Scan,UDP,192.168.88.10,1038,239.255.255.250,1900,yes
+10,[1:2011582:38] ET POLICY Vulnerable Java Version 1.6.x Detected,Potentially Bad Traffic,TCP,192.168.88.10,1041,188.72.248.160,80,no
+11,[1:2014749:2] ET CURRENT_EVENTS Redkit Java Exploit request to /24842.jar,A Network Trojan was Detected,TCP,192.168.88.10,1041,188.72.248.160,80,no
+12,[1:2017199:2] ET CURRENT_EVENTS Java UA Requesting Numeric.ext From Base Dir (Observed in Redkit/Sakura),A Network Trojan was Detected,TCP,192.168.88.10,1041,188.72.248.160,80,no
+13,[1:2014891:2] ET CURRENT_EVENTS RedKit - Java Exploit Requested - 5 digit jar,A Network Trojan was Detected,TCP,192.168.88.10,1041,188.72.248.160,80,yes
+14,[1:2017637:1] ET INFO Java File Sent With X-Powered By HTTP Header - Common In Exploit Kits,Potentially Bad Traffic,TCP,188.72.248.160,80,192.168.88.10,1041,no
+15,[1:2015695:3] ET CURRENT_EVENTS DRIVEBY Generic - 8Char.JAR Naming Algorithm,Attempted User Privilege Gain,TCP,188.72.248.160,80,192.168.88.10,1041,no
+16,[1:2015050:3] ET TROJAN Generic - 8Char.JAR Naming Algorithm,A Network Trojan was Detected,TCP,188.72.248.160,80,192.168.88.10,1041,yes
+17,[1:2014892:3] ET CURRENT_EVENTS RedKit - Jar File Naming Algorithm,A Network Trojan was Detected,TCP,188.72.248.160,80,192.168.88.10,1041,yes
+18,[1:2014664:5] ET CURRENT_EVENTS Blackhole - Jar File Naming Algorithm,A Network Trojan was Detected,TCP,188.72.248.160,80,192.168.88.10,1041,no
+19,[1:2011582:38] ET POLICY Vulnerable Java Version 1.6.x Detected,Potentially Bad Traffic,TCP,192.168.88.10,1041,188.72.248.160,80,yes
+20,[1:2014749:2] ET CURRENT_EVENTS Redkit Java Exploit request to /24842.jar,A Network Trojan was Detected,TCP,192.168.88.10,1041,188.72.248.160,80,no
+21,[1:2017199:2] ET CURRENT_EVENTS Java UA Requesting Numeric.ext From Base Dir (Observed in Redkit/Sakura),A Network Trojan was Detected,TCP,192.168.88.10,1041,188.72.248.160,80,yes
+22,[1:2014891:2] ET CURRENT_EVENTS RedKit - Java Exploit Requested - 5 digit jar,A Network Trojan was Detected,TCP,192.168.88.10,1041,188.72.248.160,80,no
+23,[1:2017637:1] ET INFO Java File Sent With X-Powered By HTTP Header - Common In Exploit Kits,Potentially Bad Traffic,TCP,188.72.248.160,80,192.168.88.10,1041,no
+24,[1:2015695:3] ET CURRENT_EVENTS DRIVEBY Generic - 8Char.JAR Naming Algorithm,Attempted User Privilege Gain,TCP,188.72.248.160,80,192.168.88.10,1041,yes
+25,[1:2015050:3] ET TROJAN Generic - 8Char.JAR Naming Algorithm,A Network Trojan was Detected,TCP,188.72.248.160,80,192.168.88.10,1041,yes
+26,[1:2014892:3] ET CURRENT_EVENTS RedKit - Jar File Naming Algorithm,A Network Trojan was Detected,TCP,188.72.248.160,80,192.168.88.10,1041,no
+27,[1:2014664:5] ET CURRENT_EVENTS Blackhole - Jar File Naming Algorithm,A Network Trojan was Detected,TCP,188.72.248.160,80,192.168.88.10,1041,no
+28,[1:1917:6] SCAN UPnP service discover attempt,Detection of a Network Scan,UDP,192.168.88.10,1038,239.255.255.250,1900,no
+29,[1:2014749:2] ET CURRENT_EVENTS Redkit Java Exploit request to /24842.jar,A Network Trojan was Detected,TCP,192.168.88.10,1041,188.72.248.160,80,no
+30,[1:2017199:2] ET CURRENT_EVENTS Java UA Requesting Numeric.ext From Base Dir (Observed in Redkit/Sakura),A Network Trojan was Detected,TCP,192.168.88.10,1041,188.72.248.160,80,yes
+31,[1:2014891:2] ET CURRENT_EVENTS RedKit - Java Exploit Requested - 5 digit jar,A Network Trojan was Detected,TCP,192.168.88.10,1041,188.72.248.160,80,yes
+32,[1:2017637:1] ET INFO Java File Sent With X-Powered By HTTP Header - Common In Exploit Kits,Potentially Bad Traffic,TCP,188.72.248.160,80,192.168.88.10,1041,yes
+33,[1:2015695:3] ET CURRENT_EVENTS DRIVEBY Generic - 8Char.JAR Naming Algorithm,Attempted User Privilege Gain,TCP,188.72.248.160,80,192.168.88.10,1041,yes
+34,[1:2015050:3] ET TROJAN Generic - 8Char.JAR Naming Algorithm,A Network Trojan was Detected,TCP,188.72.248.160,80,192.168.88.10,1041,yes
+35,[1:2014892:3] ET CURRENT_EVENTS RedKit - Jar File Naming Algorithm,A Network Trojan was Detected,TCP,188.72.248.160,80,192.168.88.10,1041,no
+36,[1:2014664:5] ET CURRENT_EVENTS Blackhole - Jar File Naming Algorithm,A Network Trojan was Detected,TCP,188.72.248.160,80,192.168.88.10,1041,no
+37,[1:2014750:3] ET CURRENT_EVENTS Incognito/RedKit Exploit Kit vulnerable Java payload request to /1digit.html,A Network Trojan was Detected,TCP,192.168.88.10,1041,188.72.248.160,80,no
+38,[1:2012810:8] ET POLICY HTTP Request to a *.tk domain,Potentially Bad Traffic,TCP,192.168.88.10,1041,188.72.248.160,80,yes
+39,[1:2014519:4] ET INFO EXE - Served Inline HTTP,Misc activity,TCP,188.72.248.160,80,192.168.88.10,1041,yes
+40,[1:2018959:2] ET POLICY PE EXE or DLL Windows file download HTTP,Potential Corporate Privacy Violation,TCP,188.72.248.160,80,192.168.88.10,1041,no
+41,[1:2013037:4] ET POLICY Java EXE Download,A Network Trojan was Detected,TCP,188.72.248.160,80,192.168.88.10,1041,no
+42,[1:2013036:2] ET TROJAN Java EXE Download by Vulnerable Version - Likely Driveby,A Network Trojan was Detected,TCP,188.72.248.160,80,192.168.88.10,1041,yes
+43,[1:1917:6] SCAN UPnP service discover attempt,Detection of a Network Scan,UDP,192.168.88.10,1038,239.255.255.250,1900,no
+44,[1:1852:3] WEB-MISC robots.txt access,Access to a Potentially Vulnerable Web Application,TCP,192.168.88.10,1042,74.125.127.106,80,yes
+45,[1:2012491:7] ET TROJAN Suspicious User-Agent (Presto),A Network Trojan was Detected,TCP,192.168.88.10,1043,178.162.167.35,80,no
+46,[1:2003626:9] ET MALWARE Double User-Agent (User-Agent User-Agent),A Network Trojan was Detected,TCP,192.168.88.10,1043,178.162.167.35,80,yes
+47,[1:2014230:4] ET TROJAN Karagany/Kazy Obfuscated Payload Download,A Network Trojan was Detected,TCP,178.162.167.35,80,192.168.88.10,1043,no
+48,[1:2016970:3] ET CURRENT_EVENTS Karagany encrypted binary (3),A Network Trojan was Detected,TCP,178.162.167.35,80,192.168.88.10,1043,yes
+49,[1:2012491:7] ET TROJAN Suspicious User-Agent (Presto),A Network Trojan was Detected,TCP,192.168.88.10,1043,178.162.167.35,80,no
+50,[1:2003626:9] ET MALWARE Double User-Agent (User-Agent User-Agent),A Network Trojan was Detected,TCP,192.168.88.10,1043,178.162.167.35,80,no
+51,[1:2014230:4] ET TROJAN Karagany/Kazy Obfuscated Payload Download,A Network Trojan was Detected,TCP,178.162.167.35,80,192.168.88.10,1043,no
+52,[1:2016970:3] ET CURRENT_EVENTS Karagany encrypted binary (3),A Network Trojan was Detected,TCP,178.162.167.35,80,192.168.88.10,1043,yes
+53,[1:2012491:7] ET TROJAN Suspicious User-Agent (Presto),A Network Trojan was Detected,TCP,192.168.88.10,1043,178.162.167.35,80,yes
+54,[1:2003626:9] ET MALWARE Double User-Agent (User-Agent User-Agent),A Network Trojan was Detected,TCP,192.168.88.10,1043,178.162.167.35,80,no
+55,[1:2014230:4] ET TROJAN Karagany/Kazy Obfuscated Payload Download,A Network Trojan was Detected,TCP,178.162.167.35,80,192.168.88.10,1043,no
+56,[1:2012491:7] ET TROJAN Suspicious User-Agent (Presto),A Network Trojan was Detected,TCP,192.168.88.10,1043,178.162.167.35,80,yes
+57,[1:2003626:9] ET MALWARE Double User-Agent (User-Agent User-Agent),A Network Trojan was Detected,TCP,192.168.88.10,1043,178.162.167.35,80,no
+58,[1:2014230:4] ET TROJAN Karagany/Kazy Obfuscated Payload Download,A Network Trojan was Detected,TCP,178.162.167.35,80,192.168.88.10,1043,yes
+59,[1:2016970:3] ET CURRENT_EVENTS Karagany encrypted binary (3),A Network Trojan was Detected,TCP,178.162.167.35,80,192.168.88.10,1043,no
+60,[1:2012491:7] ET TROJAN Suspicious User-Agent (Presto),A Network Trojan was Detected,TCP,192.168.88.10,1043,178.162.167.35,80,yes
+61,[1:2003626:9] ET MALWARE Double User-Agent (User-Agent User-Agent),A Network Trojan was Detected,TCP,192.168.88.10,1043,178.162.167.35,80,yes
+62,[1:2014230:4] ET TROJAN Karagany/Kazy Obfuscated Payload Download,A Network Trojan was Detected,TCP,178.162.167.35,80,192.168.88.10,1043,no
+63,[1:2016970:3] ET CURRENT_EVENTS Karagany encrypted binary (3),A Network Trojan was Detected,TCP,178.162.167.35,80,192.168.88.10,1043,no
+64,[1:2012491:7] ET TROJAN Suspicious User-Agent (Presto),A Network Trojan was Detected,TCP,192.168.88.10,1043,178.162.167.35,80,no
+65,[1:2003626:9] ET MALWARE Double User-Agent (User-Agent User-Agent),A Network Trojan was Detected,TCP,192.168.88.10,1043,178.162.167.35,80,yes
+66,[1:2014230:4] ET TROJAN Karagany/Kazy Obfuscated Payload Download,A Network Trojan was Detected,TCP,178.162.167.35,80,192.168.88.10,1043,yes
+67,[1:2012491:7] ET TROJAN Suspicious User-Agent (Presto),A Network Trojan was Detected,TCP,192.168.88.10,1043,178.162.167.35,80,no
+68,[1:2003626:9] ET MALWARE Double User-Agent (User-Agent User-Agent),A Network Trojan was Detected,TCP,192.168.88.10,1043,178.162.167.35,80,no
+69,[1:2014230:4] ET TROJAN Karagany/Kazy Obfuscated Payload Download,A Network Trojan was Detected,TCP,178.162.167.35,80,192.168.88.10,1043,yes
+70,[1:2016970:3] ET CURRENT_EVENTS Karagany encrypted binary (3),A Network Trojan was Detected,TCP,178.162.167.35,80,192.168.88.10,1043,yes
+71,[1:2012491:7] ET TROJAN Suspicious User-Agent (Presto),A Network Trojan was Detected,TCP,192.168.88.10,1043,178.162.167.35,80,yes
+72,[1:2003626:9] ET MALWARE Double User-Agent (User-Agent User-Agent),A Network Trojan was Detected,TCP,192.168.88.10,1043,178.162.167.35,80,no
+73,[1:2014264:5] ET POLICY IP Geo Location Request,Potential Corporate Privacy Violation,TCP,192.168.88.10,1045,208.91.207.10,80,no
+74,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.88.10,1047,66.85.130.234,53,yes
+75,[1:2014703:8] ET DNS Non-DNS or Non-Compliant DNS traffic on DNS port Reserved Bit Set - Likely Kazy,Potential Corporate Privacy Violation,UDP,192.168.88.10,1047,66.85.130.234,53,yes
+76,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.88.10,1049,66.85.130.234,53,yes
+77,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.88.10,1051,66.85.130.234,53,yes
+78,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.88.10,1053,66.85.130.234,53,no
+79,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.88.10,1055,66.85.130.234,53,no
+80,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.88.10,1057,66.85.130.234,53,no
+81,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.88.10,1063,66.85.130.234,53,no
+82,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.88.10,1065,66.85.130.234,53,no
+83,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.88.10,1067,66.85.130.234,53,yes
+84,[1:2018959:2] ET POLICY PE EXE or DLL Windows file download HTTP,Potential Corporate Privacy Violation,TCP,195.210.47.109,80,192.168.88.10,1068,no
+85,[1:2014722:2] ET TROJAN Medfos/Midhos Checkin,A Network Trojan was Detected,TCP,192.168.88.10,1070,78.140.131.157,80,yes
+86,[1:2014264:5] ET POLICY IP Geo Location Request,Potential Corporate Privacy Violation,TCP,192.168.88.10,1072,208.91.207.10,80,no
+87,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.88.10,1074,83.133.123.20,53,yes
+88,[1:2014701:11] ET DNS Non-DNS or Non-Compliant DNS traffic on DNS port Opcode 6 or 7 set - Likely Kazy,Potential Corporate Privacy Violation,UDP,192.168.88.10,1074,83.133.123.20,53,no
+89,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.88.10,1076,83.133.123.20,53,no
+90,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.88.10,1078,83.133.123.20,53,no
+91,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.88.10,1080,83.133.123.20,53,no
+92,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.88.10,1082,83.133.123.20,53,no
+93,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.88.10,1084,83.133.123.20,53,yes
+94,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.88.10,1086,83.133.123.20,53,yes
+95,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.88.10,1088,83.133.123.20,53,yes
+96,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.88.10,1090,83.133.123.20,53,no
+97,[1:2015482:8] ET TROJAN ZeroAccess Outbound udp traffic detected,A Network Trojan was Detected,UDP,192.168.88.10,1091,174.252.254.255,16471,yes
+98,[1:402:7] ICMP Destination Unreachable Port Unreachable,Misc activity,ICMP,88.252.254.255,null,192.168.88.10,null,no
+99,[1:527:8] BAD-TRAFFIC same SRC/DST,Potentially Bad Traffic,UDP,0.0.0.0,68,255.255.255.255,67,yes
+100,[1:527:8] BAD-TRAFFIC same SRC/DST,Potentially Bad Traffic,UDP,0.0.0.0,68,255.255.255.255,67,no
+101,[1:2012811:2] ET DNS DNS Query to a .tk domain - Likely Hostile,Potentially Bad Traffic,UDP,192.168.57.10,1029,4.2.2.3,53,yes
+102,[1:2012811:2] ET DNS DNS Query to a .tk domain - Likely Hostile,Potentially Bad Traffic,UDP,192.168.57.10,1029,4.2.2.5,53,yes
+103,[1:1917:6] SCAN UPnP service discover attempt,Detection of a Network Scan,UDP,192.168.57.10,1036,239.255.255.250,1900,yes
+104,[1:2012810:8] ET POLICY HTTP Request to a *.tk domain,Potentially Bad Traffic,TCP,192.168.57.10,1038,37.157.255.194,80,yes
+105,[1:2012810:8] ET POLICY HTTP Request to a *.tk domain,Potentially Bad Traffic,TCP,192.168.57.10,1039,37.157.255.194,80,yes
+106,[1:2014895:5] ET CURRENT_EVENTS RedKit - Landing Page Received - applet and code,A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1039,no
+107,[1:2014894:7] ET CURRENT_EVENTS RedKit - Landing Page Received - applet and 5digit jar,A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1039,yes
+108,[1:2012810:8] ET POLICY HTTP Request to a *.tk domain,Potentially Bad Traffic,TCP,192.168.57.10,1038,37.157.255.194,80,no
+109,[1:1917:6] SCAN UPnP service discover attempt,Detection of a Network Scan,UDP,192.168.57.10,1036,239.255.255.250,1900,yes
+110,[1:2011582:38] ET POLICY Vulnerable Java Version 1.6.x Detected,Potentially Bad Traffic,TCP,192.168.57.10,1044,37.157.255.194,80,no
+111,[1:2017199:2] ET CURRENT_EVENTS Java UA Requesting Numeric.ext From Base Dir (Observed in Redkit/Sakura),A Network Trojan was Detected,TCP,192.168.57.10,1044,37.157.255.194,80,yes
+112,[1:2012810:8] ET POLICY HTTP Request to a *.tk domain,Potentially Bad Traffic,TCP,192.168.57.10,1044,37.157.255.194,80,yes
+113,[1:2014891:2] ET CURRENT_EVENTS RedKit - Java Exploit Requested - 5 digit jar,A Network Trojan was Detected,TCP,192.168.57.10,1044,37.157.255.194,80,yes
+114,[1:2017637:1] ET INFO Java File Sent With X-Powered By HTTP Header - Common In Exploit Kits,Potentially Bad Traffic,TCP,37.157.255.194,80,192.168.57.10,1044,yes
+115,[1:2015695:3] ET CURRENT_EVENTS DRIVEBY Generic - 8Char.JAR Naming Algorithm,Attempted User Privilege Gain,TCP,37.157.255.194,80,192.168.57.10,1044,yes
+116,[1:2015050:3] ET TROJAN Generic - 8Char.JAR Naming Algorithm,A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1044,yes
+117,[1:2014892:3] ET CURRENT_EVENTS RedKit - Jar File Naming Algorithm,A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1044,yes
+118,[1:2014664:5] ET CURRENT_EVENTS Blackhole - Jar File Naming Algorithm,A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1044,yes
+119,[1:2011582:38] ET POLICY Vulnerable Java Version 1.6.x Detected,Potentially Bad Traffic,TCP,192.168.57.10,1044,37.157.255.194,80,yes
+120,[1:2017199:2] ET CURRENT_EVENTS Java UA Requesting Numeric.ext From Base Dir (Observed in Redkit/Sakura),A Network Trojan was Detected,TCP,192.168.57.10,1044,37.157.255.194,80,yes
+121,[1:2012810:8] ET POLICY HTTP Request to a *.tk domain,Potentially Bad Traffic,TCP,192.168.57.10,1044,37.157.255.194,80,no
+122,[1:2014891:2] ET CURRENT_EVENTS RedKit - Java Exploit Requested - 5 digit jar,A Network Trojan was Detected,TCP,192.168.57.10,1044,37.157.255.194,80,no
+123,[1:2017637:1] ET INFO Java File Sent With X-Powered By HTTP Header - Common In Exploit Kits,Potentially Bad Traffic,TCP,37.157.255.194,80,192.168.57.10,1044,yes
+124,[1:2015695:3] ET CURRENT_EVENTS DRIVEBY Generic - 8Char.JAR Naming Algorithm,Attempted User Privilege Gain,TCP,37.157.255.194,80,192.168.57.10,1044,yes
+125,[1:2015050:3] ET TROJAN Generic - 8Char.JAR Naming Algorithm,A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1044,yes
+126,[1:2014892:3] ET CURRENT_EVENTS RedKit - Jar File Naming Algorithm,A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1044,yes
+127,[1:2014664:5] ET CURRENT_EVENTS Blackhole - Jar File Naming Algorithm,A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1044,no
+128,[1:2017199:2] ET CURRENT_EVENTS Java UA Requesting Numeric.ext From Base Dir (Observed in Redkit/Sakura),A Network Trojan was Detected,TCP,192.168.57.10,1044,37.157.255.194,80,yes
+129,[1:2012810:8] ET POLICY HTTP Request to a *.tk domain,Potentially Bad Traffic,TCP,192.168.57.10,1044,37.157.255.194,80,no
+130,[1:2014891:2] ET CURRENT_EVENTS RedKit - Java Exploit Requested - 5 digit jar,A Network Trojan was Detected,TCP,192.168.57.10,1044,37.157.255.194,80,no
+131,[1:2017637:1] ET INFO Java File Sent With X-Powered By HTTP Header - Common In Exploit Kits,Potentially Bad Traffic,TCP,37.157.255.194,80,192.168.57.10,1044,no
+132,[1:2015695:3] ET CURRENT_EVENTS DRIVEBY Generic - 8Char.JAR Naming Algorithm,Attempted User Privilege Gain,TCP,37.157.255.194,80,192.168.57.10,1044,yes
+133,[1:2015050:3] ET TROJAN Generic - 8Char.JAR Naming Algorithm,A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1044,yes
+134,[1:2014892:3] ET CURRENT_EVENTS RedKit - Jar File Naming Algorithm,A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1044,yes
+135,[1:2014664:5] ET CURRENT_EVENTS Blackhole - Jar File Naming Algorithm,A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1044,no
+136,[1:2014750:3] ET CURRENT_EVENTS Incognito/RedKit Exploit Kit vulnerable Java payload request to /1digit.html,A Network Trojan was Detected,TCP,192.168.57.10,1044,37.157.255.194,80,yes
+137,[1:2012810:8] ET POLICY HTTP Request to a *.tk domain,Potentially Bad Traffic,TCP,192.168.57.10,1044,37.157.255.194,80,no
+138,[1:2014519:4] ET INFO EXE - Served Inline HTTP,Misc activity,TCP,37.157.255.194,80,192.168.57.10,1044,no
+139,[1:2014819:1] ET INFO Packed Executable Download,Misc activity,TCP,37.157.255.194,80,192.168.57.10,1044,yes
+140,[1:2018959:2] ET POLICY PE EXE or DLL Windows file download HTTP,Potential Corporate Privacy Violation,TCP,37.157.255.194,80,192.168.57.10,1044,yes
+141,[1:2013037:4] ET POLICY Java EXE Download,A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1044,no
+142,[1:2013036:2] ET TROJAN Java EXE Download by Vulnerable Version - Likely Driveby,A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1044,yes
+143,[1:1917:6] SCAN UPnP service discover attempt,Detection of a Network Scan,UDP,192.168.57.10,1036,239.255.255.250,1900,yes
+144,[1:2012491:7] ET TROJAN Suspicious User-Agent (Presto),A Network Trojan was Detected,TCP,192.168.57.10,1045,37.157.255.194,80,yes
+145,[1:2003626:9] ET MALWARE Double User-Agent (User-Agent User-Agent),A Network Trojan was Detected,TCP,192.168.57.10,1045,37.157.255.194,80,no
+146,[1:2014230:4] ET TROJAN Karagany/Kazy Obfuscated Payload Download,A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1045,no
+147,[1:2016970:3] ET CURRENT_EVENTS Karagany encrypted binary (3),A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1045,no
+148,[1:2012491:7] ET TROJAN Suspicious User-Agent (Presto),A Network Trojan was Detected,TCP,192.168.57.10,1045,37.157.255.194,80,yes
+149,[1:2003626:9] ET MALWARE Double User-Agent (User-Agent User-Agent),A Network Trojan was Detected,TCP,192.168.57.10,1045,37.157.255.194,80,yes
+150,[1:2014230:4] ET TROJAN Karagany/Kazy Obfuscated Payload Download,A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1045,no
+151,[1:2016970:3] ET CURRENT_EVENTS Karagany encrypted binary (3),A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1045,yes
+152,[1:2012491:7] ET TROJAN Suspicious User-Agent (Presto),A Network Trojan was Detected,TCP,192.168.57.10,1045,37.157.255.194,80,no
+153,[1:2003626:9] ET MALWARE Double User-Agent (User-Agent User-Agent),A Network Trojan was Detected,TCP,192.168.57.10,1045,37.157.255.194,80,yes
+154,[1:2014230:4] ET TROJAN Karagany/Kazy Obfuscated Payload Download,A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1045,no
+155,[1:2016970:3] ET CURRENT_EVENTS Karagany encrypted binary (3),A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1045,yes
+156,[1:2012491:7] ET TROJAN Suspicious User-Agent (Presto),A Network Trojan was Detected,TCP,192.168.57.10,1045,37.157.255.194,80,yes
+157,[1:2003626:9] ET MALWARE Double User-Agent (User-Agent User-Agent),A Network Trojan was Detected,TCP,192.168.57.10,1045,37.157.255.194,80,yes
+158,[1:2014230:4] ET TROJAN Karagany/Kazy Obfuscated Payload Download,A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1045,no
+159,[1:2016970:3] ET CURRENT_EVENTS Karagany encrypted binary (3),A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1045,yes
+160,[1:2012491:7] ET TROJAN Suspicious User-Agent (Presto),A Network Trojan was Detected,TCP,192.168.57.10,1045,37.157.255.194,80,yes
+161,[1:2003626:9] ET MALWARE Double User-Agent (User-Agent User-Agent),A Network Trojan was Detected,TCP,192.168.57.10,1045,37.157.255.194,80,yes
+162,[1:2014230:4] ET TROJAN Karagany/Kazy Obfuscated Payload Download,A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1045,yes
+163,[1:2016970:3] ET CURRENT_EVENTS Karagany encrypted binary (3),A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1045,yes
+164,[1:2012491:7] ET TROJAN Suspicious User-Agent (Presto),A Network Trojan was Detected,TCP,192.168.57.10,1045,37.157.255.194,80,no
+165,[1:2003626:9] ET MALWARE Double User-Agent (User-Agent User-Agent),A Network Trojan was Detected,TCP,192.168.57.10,1045,37.157.255.194,80,yes
+166,[1:2014230:4] ET TROJAN Karagany/Kazy Obfuscated Payload Download,A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1045,no
+167,[1:2012491:7] ET TROJAN Suspicious User-Agent (Presto),A Network Trojan was Detected,TCP,192.168.57.10,1045,37.157.255.194,80,yes
+168,[1:2003626:9] ET MALWARE Double User-Agent (User-Agent User-Agent),A Network Trojan was Detected,TCP,192.168.57.10,1045,37.157.255.194,80,no
+169,[1:2014230:4] ET TROJAN Karagany/Kazy Obfuscated Payload Download,A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1045,yes
+170,[1:2016970:3] ET CURRENT_EVENTS Karagany encrypted binary (3),A Network Trojan was Detected,TCP,37.157.255.194,80,192.168.57.10,1045,no
+171,[1:2012491:7] ET TROJAN Suspicious User-Agent (Presto),A Network Trojan was Detected,TCP,192.168.57.10,1045,37.157.255.194,80,yes
+172,[1:2003626:9] ET MALWARE Double User-Agent (User-Agent User-Agent),A Network Trojan was Detected,TCP,192.168.57.10,1045,37.157.255.194,80,yes
+173,[1:2014264:5] ET POLICY IP Geo Location Request,Potential Corporate Privacy Violation,TCP,192.168.57.10,1048,208.91.207.10,80,no
+174,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.57.10,1051,66.85.130.234,53,yes
+175,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.57.10,1053,66.85.130.234,53,yes
+176,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.57.10,1055,66.85.130.234,53,no
+177,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.57.10,1057,66.85.130.234,53,no
+178,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.57.10,1059,66.85.130.234,53,yes
+179,[1:2014722:2] ET TROJAN Medfos/Midhos Checkin,A Network Trojan was Detected,TCP,192.168.57.10,1060,78.140.131.157,80,yes
+180,[1:2010517:6] ET WEB_SERVER Possible HTTP 404 XSS Attempt (Local Source),Web Application Attack,TCP,78.140.131.157,80,192.168.57.10,1060,no
+181,[1:2014816:3] ET TROJAN Rogue.Win32/Winwebsec Install 2,A Network Trojan was Detected,TCP,192.168.57.10,1061,116.255.235.9,80,yes
+182,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.57.10,1066,66.85.130.234,53,no
+183,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.57.10,1068,66.85.130.234,53,yes
+184,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.57.10,1071,66.85.130.234,53,yes
+185,[1:2014264:5] ET POLICY IP Geo Location Request,Potential Corporate Privacy Violation,TCP,192.168.57.10,1073,208.91.207.10,80,yes
+186,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.57.10,1075,83.133.123.20,53,yes
+187,[1:2014703:8] ET DNS Non-DNS or Non-Compliant DNS traffic on DNS port Reserved Bit Set - Likely Kazy,Potential Corporate Privacy Violation,UDP,192.168.57.10,1075,83.133.123.20,53,no
+188,[1:2014702:8] ET DNS Non-DNS or Non-Compliant DNS traffic on DNS port Opcode 8 through 15 set - Likely Kazy,Potential Corporate Privacy Violation,UDP,192.168.57.10,1075,83.133.123.20,53,yes
+189,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.57.10,1077,83.133.123.20,53,yes
+190,[1:2015474:2] ET TROJAN ZeroAccess udp traffic detected,A Network Trojan was Detected,UDP,192.168.57.10,1079,83.133.123.20,53,yes
+191,[1:2015482:8] ET TROJAN ZeroAccess Outbound udp traffic detected,A Network Trojan was Detected,UDP,192.168.57.10,1069,86.145.255.255,16464,no
+192,[1:527:8] BAD-TRAFFIC same SRC/DST,Potentially Bad Traffic,UDP,0.0.0.0,68,255.255.255.255,67,yes
+193,[1:527:8] BAD-TRAFFIC same SRC/DST,Potentially Bad Traffic,UDP,0.0.0.0,68,255.255.255.255,67,no
+194,[1:254:4] DNS SPOOF query response with TTL of 1 min. and no authority,Potentially Bad Traffic,UDP,4.2.2.3,53,192.168.31.10,1035,no
+195,[1:254:4] DNS SPOOF query response with TTL of 1 min. and no authority,Potentially Bad Traffic,UDP,4.2.2.3,53,192.168.31.10,1035,no
+196,[1:1917:6] SCAN UPnP service discover attempt,Detection of a Network Scan,UDP,192.168.31.10,1042,239.255.255.250,1900,yes
+197,[1:1917:6] SCAN UPnP service discover attempt,Detection of a Network Scan,UDP,192.168.31.10,1042,239.255.255.250,1900,no
+198,[1:2014520:2] ET INFO EXE - Served Attached HTTP,Misc activity,TCP,199.27.79.185,80,192.168.31.10,1049,no
+199,[1:2018959:2] ET POLICY PE EXE or DLL Windows file download HTTP,Potential Corporate Privacy Violation,TCP,199.27.79.185,80,192.168.31.10,1049,no
+200,[1:1917:6] SCAN UPnP service discover attempt,Detection of a Network Scan,UDP,192.168.31.10,1042,239.255.255.250,1900,no
